@@ -61,7 +61,13 @@
       section{padding:55px 0}
       .about-box{padding:30px}
     }
-  </style>
+@media (max-width:760px){
+  .wrap{width:100%;max-width:100%;margin:0;padding:0 16px}
+  .hero-grid,.about-grid{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .card{width:100%}
+  section{width:100%}
+      }  </style>
 </head>
 <body>
 
